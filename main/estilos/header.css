@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+
+header h1 {
+
+    text-align: center;
+    justify-content: ;
+    color: var(--cor-branco);
+}
+
