@@ -15,7 +15,10 @@
 
     --cor-orange:hsl(9, 100%, 64%);
     --cor-preto:hsl(0, 0, 0%);
-    --cor-branco:hsl(0,0,100%);
+    --cor-branco:hsl(0, 0, 100%);
+    --hero-h1:rgb(153, 255, 187);
+    --hero-p:rgb(153, 255, 187);
+
 
 /*-- Fontes de Pagina --*/
 
@@ -46,5 +49,6 @@ html {
 body {
     font-family: "Roboto", sans-serif;
     letter-spacing: 3px;
+    background-color: black;
 }
 

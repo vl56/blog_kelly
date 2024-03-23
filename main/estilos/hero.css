@@ -5,18 +5,19 @@
 .hero h1 {
     font-size: var(--font-3x-large);
     font-weight: bold;
-    color: rgb(153, 255, 187);
+    flex-wrap: wrap;
+    color: var(--cor-orange);
   }
   
   .hero i {
     font-size: var(--font-large) !important;
-    color: rgb(153, 255, 187);
+    color: var(--cor-orange);
   }
   
   .hero p {
     font-size: var(--font-x-large);
     font-weight: bold;
-    color: rgb(153, 255, 187);
+    color: var(--cor-orange);
   }
   
   .hero {
@@ -27,20 +28,28 @@
     gap: 50px;
     min-height: 300px;
     height: 800px;
-    background: hsl(0, 0, 0%);
-    /*background: -webkit-linear-gradient(to right, #29323c, #485563);
-    background: linear-gradient(to right, #29323c, #485563);*/
+    background: -webkit-linear-gradient(to right, #29323c, #485563);
+    background: linear-gradient(to right, #29323c, #485563);
   }
   
   .hero a {
-    border: 3px double rgb(153, 255, 187);
+    border: 3px double var(--cor-orange);
+    padding: 5px;
     text-decoration: none;
-    color: rgb(153, 255, 187);
+    color: aliceblue;
     transition: var(--transition-fast);
   }
   
   .hero a:hover {
-    background-color: rgba(153, 255, 187, 0.7);
-    color: black;
+    background-color: var(--cor-orange);
+    color: blue;
   }
   
+  .hero img {
+
+    width: 18%;
+    border-radius: 100px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px solid rgb(153, 255, 187);
+
+  }

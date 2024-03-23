@@ -6,6 +6,7 @@
 .navigation {
     width: 100%;
     height: 80px;
+    background-color: rgb(6, 64, 114);
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
@@ -35,6 +36,7 @@
     text-decoration: none;
     transition: var(--transition-fast);
     font-family: "Roboto", sans-serif;
+    color: aliceblue;
   }
   
   .nav-container .links a {
@@ -48,6 +50,7 @@
   .nav-container .links a:hover,
   .nav-container .logo p:hover {
     font-size: var(--font-large);
+    color: blue;
   }
   
   .mobile-button {
