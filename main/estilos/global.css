@@ -4,10 +4,11 @@
 @import url(https://fonts.googleapis.com);
 @import url(https://fonts.gstatic.com);
 
-@import "header.css";
-/*@import "";
-@import "";
-@import "";*/
+@import "nav.css";
+@import "hero.css";
+@import "contato.css";
+@import "fotos.css";
+@import "footer.css";
 
 :root {
 /*Cores de Pagina*/
@@ -16,8 +17,8 @@
     --cor-preto:hsl(0, 0, 0%);
     --cor-branco:hsl(0,0,100%);
 
-
 /*-- Fontes de Pagina --*/
+
     --font-medium: 1em;
     --font-medium-large: 1.25em;
     --font-large: 1.5rem;
@@ -36,11 +37,12 @@
 }
 
 /* Estilos gerais */
-
+/*
 html {
     scroll-behavior: smooth;
 }
-  
+*/
+
 body {
     font-family: "Roboto", sans-serif;
     letter-spacing: 3px;
