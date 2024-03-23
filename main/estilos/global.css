@@ -12,7 +12,7 @@
 @import "/main/media/media-query.css";
 
 :root {
-    
+
 /*Cores de Pagina*/
 
     --cor-orange:hsl(9, 100%, 64%);
@@ -51,6 +51,6 @@ html {
 body {
     font-family: "Roboto", sans-serif;
     letter-spacing: 3px;
-    background-color: black;
+    background-color: white;
 }
 

@@ -48,7 +48,11 @@
     .hero p {
       text-align: center;
     }
-  
+    
+    .hero img {
+
+      width: 40%;
+    }
     .c-card {
       width: 90%;
     }
@@ -171,7 +175,12 @@
     .hero p {
       font-size: var(--font-medium);
     }
-  
+    
+    .hero img {
+
+      width: 40%;
+
+    }
     .testimonials {
       padding: 0 !important;
     }

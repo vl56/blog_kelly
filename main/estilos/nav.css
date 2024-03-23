@@ -6,7 +6,6 @@
 .navigation {
     width: 100%;
     height: 80px;
-    background-color: rgb(6, 64, 114);
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
@@ -25,30 +24,19 @@
     gap: 15px;
     justify-content: center;
   }
-  
-  .nav-container .logo {
-    display: flex;
-    align-items: center;
-  }
-  
-  .nav-container .links a,
-  .nav-container .logo a {
+
+  .nav-container .links a {
     text-decoration: none;
     transition: var(--transition-fast);
     font-family: "Roboto", sans-serif;
-    color: aliceblue;
+    color: #29323c;
   }
   
   .nav-container .links a {
     font-size: var(--font-medium);
   }
-  
-  .nav-container .logo p {
-    font-size: var(--font-large);
-  }
-  
-  .nav-container .links a:hover,
-  .nav-container .logo p:hover {
+
+  .nav-container .links a:hover {
     font-size: var(--font-large);
     color: blue;
   }
