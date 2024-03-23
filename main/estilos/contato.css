@@ -4,27 +4,40 @@
 /*Contact*/
 
 .contact {
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
 
-    min-height: 400px;
-    background-color: var(--color-branco);
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-  }
+.img-card {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+}
 
-  .contact  {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
+  .img-card img {
+
+    width: 400px;
+    padding: 50px;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+
   }
-  
-  .contact span {
-    color: var(--title-span-color);
-  }
-  
-  .contact .form .container form {
-    width: 80%;
-  }
+.contact span {
+  color: var(--title-span-color);
+}
+
+
+
+.contact .short-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  min-height: 400px;
+}
 
 
   /*Testimonials*/
