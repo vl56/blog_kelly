@@ -28,7 +28,7 @@
     gap: 50px;
     min-height: 300px;
     height: 800px;
-    background: -webkit-linear-gradient(to right, #29323c, #485563);
+    background: -webkit-linear-gradient(to right, #00000, #485563);
     background: linear-gradient(to right, #29323c, #485563);
   }
   

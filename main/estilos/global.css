@@ -1,16 +1,18 @@
 @charset "UTF-8";
 
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
-@import url(https://fonts.googleapis.com);
-@import url(https://fonts.gstatic.com);
+@import url(https://www.w3schools.com/lib/w3-colors-highway.css);
+@import url(https://www.w3schools.com/w3css/4/w3.css);
 
 @import "nav.css";
 @import "hero.css";
 @import "contato.css";
 @import "fotos.css";
 @import "footer.css";
+@import "/main/media/media-query.css";
 
 :root {
+    
 /*Cores de Pagina*/
 
     --cor-orange:hsl(9, 100%, 64%);
@@ -40,11 +42,11 @@
 }
 
 /* Estilos gerais */
-/*
+
 html {
     scroll-behavior: smooth;
 }
-*/
+
 
 body {
     font-family: "Roboto", sans-serif;
