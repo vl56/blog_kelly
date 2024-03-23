@@ -15,70 +15,11 @@
             <h1>FOTOS</h1>
         </aside>
 
-
-
-        <section class="testimonials w3-container w3-panel" style="padding: 50px;">
-            <h2 style="text-align: center;">- Algumas de nossas histórias de clientes -</h2>
-            <div class="slideshow-container">
-      
-            <div class="mySlides">
-              <p><q><em>A equipe kellyfotografias_ impulsionou meu negócio em 100% em apenas 6 meses! A experiência deles ajudou a mim e à minha empresa a crescer além do que pensei ser possível.</em></q></p>
-              <p class="author"><strong>- Karol Betriaz, Founder of COMPANY-X</strong></p>
-            </div>
-      
-            <div class="mySlides">
-              <p><q><em>A kellyfotografias_ me ajudou a lançar minha ideia em apenas 3 meses! Se não existisse a equipe da VL56 Consultorias provavelmente eu não teria sucesso.</em></q></p>
-              <p class="author"><strong>- Anne Johnson, Founder of COMPANY-Y</strong></p>
-            </div>
-      
-            <div class="mySlides">
-              <p><q><em>A equipe da kellyfotografias_ irá ajudá-lo a direcionar sua ideia na direção certa, reduzindo todos os riscos que você pode encontrar por conta própria! Eles certamente fizeram o meu.</em></q></p>
-              <p class="author"><strong>- Dean Doe, Founder of COMPANY-Z</strong></p>
-            </div>
-      
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-            <a class="next" onclick="plusSlides(1)">❯</a>
-      
-            </div>
-      
-            <div class="dot-container">
-              <span class="dot" onclick="currentSlide(1)"></span> 
-              <span class="dot" onclick="currentSlide(2)"></span> 
-              <span class="dot" onclick="currentSlide(3)"></span> 
-            </div>      
-          </section>
           
         <footer class="footer"> 
             <p>&copy; 2024 Kelly Fotografias_. Todos os direitos reservados.</p>  
         </footer>
 
-        <script async>
-            let slideIndex = 1;
-            showSlides(slideIndex);
-      
-            function plusSlides(n) {
-              showSlides(slideIndex += n);
-            }
-      
-            function currentSlide(n) {
-              showSlides(slideIndex = n);
-            }
-      
-            function showSlides(n) {
-              let i;
-              let slides = document.getElementsByClassName("mySlides");
-              let dots = document.getElementsByClassName("dot");
-              if (n > slides.length) {slideIndex = 1}    
-              if (n < 1) {slideIndex = slides.length}
-              for (i = 0; i < slides.length; i++) {
-                  slides[i].style.display = "none";  
-              }
-              for (i = 0; i < dots.length; i++) {
-                  dots[i].className = dots[i].className.replace(" active", "");
-              }
-              slides[slideIndex-1].style.display = "block";  
-              dots[slideIndex-1].className += " active";
-            }
-        </script>
+
     </body>
 </html>

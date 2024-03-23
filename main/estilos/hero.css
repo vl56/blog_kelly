@@ -5,7 +5,6 @@
 .hero h1 {
     font-size: var(--font-3x-large);
     font-weight: bold;
-    flex-wrap: wrap;
     color: var(--cor-orange);
   }
   
@@ -46,11 +45,3 @@
     color: blue;
   }
   
-  .hero img {
-
-    width: 25%;
-    border-radius: 100px;
-    border: 1px solid black;
-    box-shadow: 1px 1px 1px solid rgb(153, 255, 187);
-
-  }
