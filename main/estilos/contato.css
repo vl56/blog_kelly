@@ -4,6 +4,7 @@
 /*Contact*/
 
 .contact {
+  background-color: #29323c;
   min-height: 400px;
   display: flex;
   justify-content: center;
@@ -18,11 +19,11 @@
 }
 
   .img-card img {
-
+    
     width: 400px;
     padding: 50px;
-    -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 3px 5px 0px hsl(0, 0, 100%);
+    -moz-box-shadow: 0px 3px 5px 0px hsl(0, 0, 100%);
     box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
 
   }
