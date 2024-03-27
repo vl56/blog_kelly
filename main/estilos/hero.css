@@ -24,7 +24,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 50pt;
     min-height: 280px;
     height: 880px;
     background: -webkit-linear-gradient(to right, #00000, #485563);
@@ -38,6 +38,8 @@
     text-decoration: none;
     color: aliceblue;
     transition: var(--transition-fast);
+    /*box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);*/
+    /*border: 1px solid black;*/
   }
   
   .hero a:hover {
@@ -45,3 +47,9 @@
     color: blue;
   }
   
+    .hero:hover {
+
+      color: white;
+      transition: var(--transition-fast);
+      
+    }
