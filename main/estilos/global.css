@@ -11,6 +11,10 @@
 @import "fotos.css";
 @import "footer.css";
 
+@import "/main/fotos/estilos/batizado.css";
+@import "/main/fotos/estilos/ensaiofeminino.css";
+@import "/main/fotos/estilos/";
+
 :root {
 
 /*Cores de Pagina*/
@@ -20,6 +24,7 @@
     --color-branco:hsl(0, 0, 100%);
     --hero-h1:rgb(153, 255, 187);
     --hero-p:rgb(153, 255, 187);
+    --hero-backgroud-01:#D3B0EF;
 
 
 /*-- Fontes de Pagina --*/
@@ -31,7 +36,7 @@
     --font-2x-large: 3rem;
     --font-3x-large: 5.5rem;
   
-    --transition-fast: 0.1s;
+    --transition-fast: 0.2s;
 }
 
 

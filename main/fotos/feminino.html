@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/main/estilos/global.css">
+<title>Galeria de Fotos</title>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="image-container">
+        <img src="_ensaio_feminino/Bela-1.png" alt="Imagem 1">
+    </div>
+    <div class="image-container">
+        <img src="_ensaio_feminino/Bela-5.png" alt="Imagem 2">
+    </div>
+    <div class="image-container">
+        <img src="_ensaio_feminino/Bela-6.jpg" alt="Imagem 3">
+    </div>
+
+    <div class="image-container">
+        <img src="_ensaio_feminino/Bela-1.png" alt="Imagem 4">
+    </div>
+    <div class="image-container">
+        <img src="_ensaio_feminino/IMG_6134.jpg" alt="Imagem 5">
+    </div>
+    <div class="image-container">
+        <img src="_ensaio_feminino/Bela-6.jpg" alt="Imagem 6">
+    </div>
+
+    <div class="image-container">
+        <img src="_ensaio_feminino/Bela-1.png" alt="Imagem 7">
+    </div>
+    <div class="image-container">
+        <img src="_ensaio_feminino/IMG_6134.jpg" alt="Imagem 8">
+    </div>
+    <div class="image-container">
+        <img src="_ensaio_feminino/Bela-6.jpg" alt="Imagem 9">
+    </div>
+    <!-- Adicione mais divs .image-container conforme necessário -->
+</div>
+
+<div class="nav-buttons">
+    <button onclick="prevImage()">Anterior</button>
+    <button onclick="nextImage()">Próxima</button>
+</div>
+
+<script>
+    var currentIndex = 0;
+    var images = document.querySelectorAll('.image-container img');
+
+    function showImage(index) {
+        if (index >= 0 && index < images.length) {
+            images[currentIndex].style.display = 'none';
+            currentIndex = index;
+            images[currentIndex].style.display = 'block';
+        }
+    }
+
+    function nextImage() {
+        showImage(currentIndex + 1);
+    }
+
+    function prevImage() {
+        showImage(currentIndex - 1);
+    }
+
+    // Exibindo a primeira imagem ao carregar a página
+    showImage(currentIndex);
+</script>
+
+</body>
+</html>

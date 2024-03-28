@@ -1,18 +1,57 @@
 @charset "UTF-8";
 
-header {
 
+
+
+/*Contact*/
+
+.contact {
+  
     min-height: 400px;
     display: flex;
     justify-content: center;
     padding: 50px;
+  }
+  
+  .img-card {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+  }
+  
+    .img-card img {
+      
+      width: 400px;
+      padding: 10px;
+      -webkit-box-shadow: 0px 3px 5px 0px hsl(0, 0, 100%);
+      -moz-box-shadow: 0px 3px 5px 0px hsl(0, 0, 100%);
+      box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  
+    }
+  .contact span {
+    color: var(--title-span-color);
+  }
+  
+  
+  
+  .contact .short-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    min-height: 400px;
+  }
+  
+  .contact .large a {
 
-        .menu-ensaio {
+    text-decoration: none;
+    padding: 15px;
+    transition: var(--transition-fast);
 
-            display: flex;
-            flex-direction: column;
-            align-items: left;
-            min-height: 400px;
+  }
 
-        }
+    .contact .large a:hover {
 
+        font-size: var(--font-large);
+        color: blue;
+    }

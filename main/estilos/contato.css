@@ -21,7 +21,7 @@
   .img-card img {
     
     width: 400px;
-    padding: 50px;
+    padding: 10px;
     -webkit-box-shadow: 0px 3px 5px 0px hsl(0, 0, 100%);
     -moz-box-shadow: 0px 3px 5px 0px hsl(0, 0, 100%);
     box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
@@ -40,6 +40,19 @@
   min-height: 400px;
 }
 
+
+.contact .large a {
+
+  text-decoration: none;
+  transition: var(--transition-fast);
+
+}
+
+  .contact .large a:hover {
+
+      font-size: var(--font-large);
+      color: blue;
+  }
 
   /*Testimonials*/
 
