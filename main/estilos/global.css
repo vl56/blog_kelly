@@ -11,9 +11,10 @@
 @import "fotos.css";
 @import "footer.css";
 
-@import "/main/fotos/estilos/batizado.css";
-@import "/main/fotos/estilos/ensaiofeminino.css";
-@import "/main/fotos/estilos/";
+@import "/main/fotos/_estilos/batizado.css";
+@import "/main/fotos/_estilos/casal.css";
+@import "/main/fotos/_estilos/ensaiofeminino.css";
+@import "/main/fotos/_estilos/debutante.css";
 
 :root {
 
